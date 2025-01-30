@@ -8,7 +8,7 @@ function Banner () {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     // strings to rotate through
-    const toRotate = ["Web Developer", "Software Engineer", "App Developer", "Gym Enthusiast"];
+    const toRotate = ["Web Developer", "Software Engineer", "App Developer", "Gym Enthusiast", "Animal Lover"];
     // variable to set the text
     const [text, setText] = useState('');
     // time between new letters
