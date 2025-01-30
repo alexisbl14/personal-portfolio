@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import NavBar from './components/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import NavBar from './components/NavBar'
+import Banner from './components/Banner';
+
 
 function App() {
 
   return (
     <div>
       <NavBar/>
+      <Banner/>
     </div>
   )
 }
