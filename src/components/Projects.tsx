@@ -1,41 +1,46 @@
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from '../assets/img/project-img1.png';
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import davisDotImg from "../assets/img/davis-dot2.PNG";
+import littleLemonImg from  "../assets/img/little-lemon.png";
+import d2dImg from "../assets/img/d2d-enzyme-rate-calculator.webp";
+import trainingToolImg from "../assets/img/training-tool-login.PNG";
+import fitnessTrackerImg from "../assets/img/fitness-tracker-app.png";
+import foodOffImg from "../assets/img/food-off.webp";
 
 function Projects() {
 
     const projects = [
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
+            title: "DavisDot",
+            description: "Developer",
+            imgUrl: davisDotImg,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
+            title: "Little Lemon Website",
+            description: "Designer & Developer",
+            imgUrl: littleLemonImg,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
+            title: "Design 2 Data Enzyme Rate Calculator Website",
+            description: "Frontend Developer",
+            imgUrl: d2dImg,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
+            title: "CodeLab Training Tool Website",
+            description: "Developer",
+            imgUrl: trainingToolImg,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
+            title: "Fitness Tracker App",
+            description: "Developer",
+            imgUrl: fitnessTrackerImg,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
-        },
+            title: "Food-Off App",
+            description: "Developer",
+            imgUrl: foodOffImg,
+        }
     ]
 
     return (
