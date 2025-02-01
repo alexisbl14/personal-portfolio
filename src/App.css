@@ -349,6 +349,9 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
   padding: 120px 0;
   position: relative;
   background-color: black;
+  background: url('./assets/img/color-sharp2.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
 }
 .project h2 {
   font-size: 45px;
@@ -473,7 +476,6 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
   bottom: 0;
   width: 35%;
   right: 0;
-  z-index: -4;
 }
 
 /* Footer CSS */

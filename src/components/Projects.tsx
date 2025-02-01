@@ -1,6 +1,5 @@
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import davisDotImg from "../assets/img/davis-dot2.PNG";
 import littleLemonImg from  "../assets/img/little-lemon.png";
 import d2dImg from "../assets/img/d2d-enzyme-rate-calculator.webp";
@@ -85,7 +84,6 @@ function Projects() {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={colorSharp2}/>
         </section>
     );
 };
