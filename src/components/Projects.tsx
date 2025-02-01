@@ -12,33 +12,33 @@ function Projects() {
 
     const projects = [
         {
-            title: "DavisDot",
-            description: "Developer",
+            projTitle: "DavisDot",
+            role: "Developer",
             imgUrl: davisDotImg,
         },
         {
-            title: "Little Lemon Website",
-            description: "Designer & Developer",
+            projTitle: "Little Lemon Website",
+            role: "Designer & Developer",
             imgUrl: littleLemonImg,
         },
         {
-            title: "Design 2 Data Enzyme Rate Calculator Website",
-            description: "Frontend Developer",
+            projTitle: "Design 2 Data Enzyme Rate Calculator Website",
+            role: "Frontend Developer",
             imgUrl: d2dImg,
         },
         {
-            title: "CodeLab Training Tool Website",
-            description: "Developer",
+            projTitle: "CodeLab Training Tool Website",
+            role: "Developer",
             imgUrl: trainingToolImg,
         },
         {
-            title: "Fitness Tracker App",
-            description: "Developer",
+            projTitle: "Fitness Tracker App",
+            role: "Developer",
             imgUrl: fitnessTrackerImg,
         },
         {
-            title: "Food-Off App",
-            description: "Developer",
+            projTitle: "Food-Off App",
+            role: "Developer",
             imgUrl: foodOffImg,
         }
     ]
@@ -53,10 +53,10 @@ function Projects() {
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" defaultActiveKey="/home" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                                    <Nav.Link eventKey="first">Overview</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                                    <Nav.Link eventKey="second">Descriptions</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="third" >Tab 3</Nav.Link>
