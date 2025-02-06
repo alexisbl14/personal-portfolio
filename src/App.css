@@ -533,12 +533,41 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
   transform: scale(1.2)
 }
 
+/* Hobbies CSS */
+.hobbies {
+  padding: 120px 0;
+  position: relative;
+  background: url('./assets/img/color-sharp2.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hobbies h1 {
+  font-size: 45px;
+  font-weight: 700;
+  width: 100%
+}
+.hobbies text {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+}
+.hobbies-list {
+  padding-top: 30px;
+}
+.hobby-bx {
+  background: #1b1b1b;
+  border-radius: 64px;
+  padding: 50px;
+}
+
 /* Footer CSS */
 .footer {
   padding: 50px 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
-  background-position: center center;
-  background-size: cover;
+  background-image: url('./assets/img/color-sharp.png');
   background-repeat: no-repeat;
 }
 .footer img {
