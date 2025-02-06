@@ -724,3 +724,7 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+footer h1 {
+  color: #ae74d5;
+}
