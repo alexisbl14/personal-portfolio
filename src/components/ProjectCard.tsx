@@ -31,11 +31,10 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ projTitle, role, imgUr
                         <text><em>{timeframe}</em></text>
                         <br></br>
                         <text>{projDesc}</text>
-                        <text></text>
                         <h4>Skills Developed/Tools Used</h4>
                         <div className="proj-skills-list">
                             {skills.map((skill, index) => (
-                                <span key={index}>{skill} </span>
+                                <span key={index} className="proj-skill-item">{skill} </span>
                             ))}
                         </div>
                         <a href={link}>Link to Project</a>

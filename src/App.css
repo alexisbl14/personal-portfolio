@@ -544,6 +544,7 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
 .proj-imgbx:hover .proj-txt {
   top: 50%;
   opacity: 1;
+  cursor: pointer;
 }
 
 .proj-txt h4 {
@@ -558,6 +559,49 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+}
+
+.desc-txt {
+  border: 2px solid #B8B8B8;
+  border-radius: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.desc-txt a {
+  color: #B8B8B8;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  justify-self: center;
+  padding-top: 10px;
+}
+
+.desc-txt a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.desc-txt text {
+  color: #B8B8B8;
+}
+
+.desc-txt h4 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.proj-skills-list {
+  justify-content: center;
+}
+
+.proj-skill-item {
+  padding: 10px;
+  margin: 10px;
+  color: #B8B8B8;
+  border-radius: 10px;
+  border: 1px solid #ae74d5;
+  display: inline-block;
 }
 
 .background-image-right {
