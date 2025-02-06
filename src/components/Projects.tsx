@@ -87,9 +87,6 @@ function Projects() {
                                 <Nav.Item>
                                     <Nav.Link eventKey="second">Descriptions</Nav.Link>
                                 </Nav.Item>
-                                <Nav.Item>
-                                    <Nav.Link eventKey="third" >Tab 3</Nav.Link>
-                                </Nav.Item>
                             </Nav>
                             <Tab.Content id="slideInUp">
                                 <Tab.Pane eventKey="first">
@@ -104,9 +101,6 @@ function Projects() {
                                     </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                    Lorem Ipsum
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="third">
                                     Lorem Ipsum
                                 </Tab.Pane>
                             </Tab.Content>
