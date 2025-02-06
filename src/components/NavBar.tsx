@@ -53,7 +53,6 @@ function NavBar() {
                         <div className="social-icon">
                             <a href="https://www.linkedin.com/in/alexis-lydon-477498223"><img src={navIcon} alt="LinkedIn" /></a>
                         </div>
-                        <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
                     </span>
                 </Navbar.Collapse>
             </Container>
