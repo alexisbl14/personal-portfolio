@@ -79,6 +79,7 @@ function Projects() {
                     <Col>
                         <h2>Projects</h2>
                         <p>Below are examples of my latest projects!</p>
+                        <p>Click on each to learn more! Or go to the next tab to see the tasks I did!</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" defaultActiveKey="/home" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
