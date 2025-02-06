@@ -28,15 +28,15 @@ function NavBar() {
     }, [])
 
     // function for updating active link
-    const onUpdateActiveLink = (value:string) => {
+    const onUpdateActiveLink = (value: string) => {
         setActiveLink(value);
     }
 
     return (
-        <Navbar expand="md" className={scrolled ? "scrolled": ""}>
+        <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
             <Container>
                 <Navbar.Brand href="#home">
-                    <img src={logo} alt="logo"/>
+                    <h1>Alexis Lydon</h1>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggler-icon"></span>
@@ -51,7 +51,7 @@ function NavBar() {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/alexis-lydon-477498223"><img src={navIcon} alt="LinkedIn"/></a>
+                            <a href="https://www.linkedin.com/in/alexis-lydon-477498223"><img src={navIcon} alt="LinkedIn" /></a>
                         </div>
                         <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
                     </span>

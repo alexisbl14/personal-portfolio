@@ -1,7 +1,7 @@
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import davisDotImg from "../assets/img/davis-dot2.PNG";
-import littleLemonImg from  "../assets/img/little-lemon.png";
+import littleLemonImg from "../assets/img/little-lemon.png";
 import d2dImg from "../assets/img/d2d-enzyme-rate-calculator.webp";
 import trainingToolImg from "../assets/img/training-tool-login.PNG";
 import fitnessTrackerImg from "../assets/img/fitness-tracker-app.png";
@@ -48,7 +48,7 @@ function Projects() {
                 <Row>
                     <Col>
                         <h2>Projects</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>Below are examples of my latest projects!</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" defaultActiveKey="/home" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
@@ -67,17 +67,17 @@ function Projects() {
                                         {
                                             projects.map((project, index) => {
                                                 return (
-                                                    <ProjectCard key={index} {...project}/>
+                                                    <ProjectCard key={index} {...project} />
                                                 )
                                             })
                                         }
                                     </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                        Lorem Ipsum
+                                    Lorem Ipsum
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third">
-                                        Lorem Ipsum
+                                    Lorem Ipsum
                                 </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
