@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import { Footer } from './components/Footer';
 import { Education } from './components/Education';
 import { Hobbies } from './components/Hobbies';
+import { Experience } from './components/Experience';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Banner/>
       <Skills/>
       <Projects/>
+      <Experience/>
       <Education/>
       <Hobbies/>
       <Footer/>
