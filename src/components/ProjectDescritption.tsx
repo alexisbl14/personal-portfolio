@@ -1,5 +1,3 @@
-import { Col } from "react-bootstrap";
-
 type ProjectDescriptionProps = {
     projTitle: string,
     timeframe: string,
