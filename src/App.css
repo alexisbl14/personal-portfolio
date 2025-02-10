@@ -392,7 +392,7 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
 
 .skill-item {
   padding: 10px 20px;
-  margin: 10px;
+  margin: 15px;
   background: radial-gradient(circle, #AA367C -5.91%, #4A2FBD 111.58%);
   opacity: 0.85;
   display: inline-block;
@@ -597,6 +597,10 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
   border-radius: 10px;
   border: 1px solid #ae74d5;
   display: inline-block;
+}
+
+.proj-task-item {
+  color: #B8B8B8;
 }
 
 .background-image-right {
