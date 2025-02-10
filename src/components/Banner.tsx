@@ -8,11 +8,11 @@ function Banner() {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     // strings to rotate through
-    const toRotate = ["Web Developer", "Software Engineer", "App Developer", "Gym Enthusiast", "Animal Lover"];
+    const toRotate = ["Web Developer", "Software Developer", "App Developer", "Gym Enthusiast", "Animal Lover", "Problem Solver"];
     // variable to set the text
     const [text, setText] = useState('');
     // time between new letters
-    const [delta, setDelta] = useState(200 - Math.random() * 100)
+    const [delta, setDelta] = useState(100)
     // time between new words added or subtracted
     const period = 1000;
 
@@ -34,7 +34,7 @@ function Banner() {
         setText(updatedText);
         // control whether to delete or not and how fast to delete text
         if (isDeleting) {
-            setDelta(100)
+            setDelta(50)
         }
         if (!isDeleting && updatedText === fullText) {
             setIsDeleting(true);
@@ -42,7 +42,7 @@ function Banner() {
         } else if (isDeleting && updatedText === '') {
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
-            setDelta(500);
+            setDelta(125);
         }
     }
 
@@ -63,7 +63,7 @@ function Banner() {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi I'm Alexis - `}<span className="txt-rotate-wrap">{text}</span></h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>Hey, I'm Alexis! I'm a UC Davis Computer Science grad who loves building intuitive web and mobile experiences. Whether it’s crafting sleek UIs in React or tackling backend logic, I enjoy turning ideas into reality. I thrive in collaborative teams, love learning new tech, and am always up for a challenge—especially if it means creating something awesome!</p>
                         <Row className="align-items-center">
                             <Col md="auto">
                                 <a href="https://www.linkedin.com/in/alexis-lydon-477498223/">Let's Connect<ArrowRightCircle size={25} /></a>
