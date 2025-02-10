@@ -12,7 +12,7 @@ type ProjectCardProps = {
     link: string
 }
 
-export const ProjectCard: React.FC<ProjectCardProps> = ({ projTitle, role, imgUrl, timeframe, projDesc, tasks, skills, link }) => {
+export const ProjectCard: React.FC<ProjectCardProps> = ({ projTitle, role, imgUrl, timeframe, projDesc, skills, link }) => {
 
     const [descriptionVisible, setDescriptionVisible] = useState(false);
     return (
