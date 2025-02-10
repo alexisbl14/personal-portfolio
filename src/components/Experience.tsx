@@ -1,5 +1,4 @@
 import { Container, Row } from "react-bootstrap"
-import colorSharp from "../assets/img/color-sharp.png";
 import { ExperienceCard } from "./ExperienceCard";
 import codeLabLogo from "../assets/img/codelabdavis_logo.jfif";
 import icarusLogo from "../assets/img/team_icarus_logo.jfif";
