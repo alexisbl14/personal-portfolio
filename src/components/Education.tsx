@@ -28,7 +28,7 @@ export const Education = () => {
                         <text>UCEAP Study Abroad Program</text>
                         <p>Studied German, and took classes in Cryptography and Brain Computer Interfacing</p>
                     </Row>
-                    <h3>Certifications</h3>
+                    <h2>Certifications</h2>
                     <Row>
                         <a href="https://www.coursera.org/account/accomplishments/specialization/O2IJ0X1QDNUQ"><text>Meta Frontend Developer Specialization <em>Dec 2024</em></text></a>
                     </Row>
