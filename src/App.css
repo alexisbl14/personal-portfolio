@@ -340,6 +340,24 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
   margin-left: 25px;
 }
 
+.banner button {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  margin-top: 60px;
+  padding: 8px 10px;
+  margin-left: 20px;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  display: inline-block;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+.banner button:hover {
+  transform: scale(1.2);
+}
+
 .banner img {
   animation: updown 3s linear infinite;
 }

@@ -46,6 +46,16 @@ function Banner() {
         }
     }
 
+    const downloadResume = () => {
+        const resumeUrl = "AlexisLydonResume.pdf";
+        const link = document.createElement("a");
+        link.href = resumeUrl;
+        link.download = "AlexisLydonResume.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
         <section className="banner" id="home">
             <Container>
@@ -54,7 +64,14 @@ function Banner() {
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi I'm Alexis - `}<span className="txt-rotate-wrap">{text}</span></h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <a href="https://www.linkedin.com/in/alexis-lydon-477498223/">Let's Connect<ArrowRightCircle size={25} /></a>
+                        <Row className="align-items-center">
+                            <Col md="auto">
+                                <a href="https://www.linkedin.com/in/alexis-lydon-477498223/">Let's Connect<ArrowRightCircle size={25} /></a>
+                            </Col>
+                            <Col>
+                                <button onClick={downloadResume}>Resume</button>
+                            </Col>
+                        </Row>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header Img" />
