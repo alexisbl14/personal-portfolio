@@ -54,7 +54,7 @@ function Banner() {
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi I'm Alexis - `}<span className="txt-rotate-wrap">{text}</span></h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <button>Let's Connect<ArrowRightCircle size={25} /></button>
+                        <a href="https://www.linkedin.com/in/alexis-lydon-477498223/">Let's Connect<ArrowRightCircle size={25} /></a>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header Img" />

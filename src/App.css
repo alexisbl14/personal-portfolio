@@ -314,7 +314,7 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
   width: 96%;
 }
 
-.banner button {
+.banner a {
   color: #fff;
   font-weight: 700;
   font-size: 20px;
@@ -322,16 +322,21 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
-.banner button svg {
+.banner a:hover {
+  cursor: pointer;
+}
+
+.banner a svg {
   font-size: 25px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
 }
 
-.banner button:hover svg {
+.banner a:hover svg {
   margin-left: 25px;
 }
 
