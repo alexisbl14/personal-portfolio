@@ -654,6 +654,14 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
   line-height: 1.5em;
 }
 
+.education a {
+  text-decoration: none;
+}
+
+.education text:hover {
+  color: white;
+}
+
 .course-list {
   width: 100%;
   position: relative;
