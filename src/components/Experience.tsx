@@ -1,11 +1,14 @@
 import { Container, Row } from "react-bootstrap"
 import colorSharp from "../assets/img/color-sharp.png";
 import { ExperienceCard } from "./ExperienceCard";
+import codeLabLogo from "../assets/img/codelabdavis_logo.jfif";
+import icarusLogo from "../assets/img/team_icarus_logo.jfif";
 
 export const Experience = () => {
     const experiences = [
         {
             company: "Icarus Development",
+            companyLogo: icarusLogo,
             title: "Software Development Intern",
             timeframe: "Sept 2024 - Present",
             companyDesc: "Icarus Development is a startup founded out of Davis, CA. They have a wide range of volunteer designers, devlopers, and project leads working on a number of different projects.",
@@ -17,6 +20,7 @@ export const Experience = () => {
         },
         {
             company: "CodeLab UC Davis",
+            companyLogo: codeLabLogo,
             title: "Software Developer Associate",
             timeframe: "Jan 2022 - Dec 2023",
             companyDesc: "CodeLab is a student-run software and UI/UX design agency at UC Davis that works with real startups in order to create applications and websites.",
@@ -32,15 +36,18 @@ export const Experience = () => {
     ]
     return (
         <section className="experience" id="experience">
-            <Row>
-                {
-                    experiences.map((experience, index) => {
-                        return(
-                            <ExperienceCard key={index} {...experience}/>
-                        )
-                    })
-                }
-            </Row>
+            <Container className="experience-bx">
+                <h1>Experience</h1>
+                <Row>
+                    {
+                        experiences.map((experience, index) => {
+                            return (
+                                <ExperienceCard key={index} {...experience} />
+                            )
+                        })
+                    }
+                </Row>
+            </Container>
         </section>
     );
 };

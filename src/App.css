@@ -611,6 +611,48 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
   right: 0;
 }
 
+/* Experience CSS */
+.experience {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.experience h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.experience h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.experience h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.experience a {
+  text-decoration: none;
+  color: white;
+}
+
+.experience text, p, li {
+  color:#B8B8B8;
+}
+
+.experience img {
+  width: 100px;
+  border-radius: 16px;
+}
+
+.experience p, li {
+  padding-top: 10px;
+}
+
+
+
 /* Education CSS */
 .education {
   padding: 0 0 50px 0;
