@@ -802,6 +802,23 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
   margin-top: 20px;
 }
 
-footer h1 {
+.footer h1 {
   color: #ae74d5;
+}
+
+.footer button {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: rgba(217, 217, 217, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  font-size: 20px;
+  display: inline-block;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+.footer button:hover {
+  transform: scale(1.2);
 }
