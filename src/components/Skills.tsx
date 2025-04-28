@@ -4,9 +4,9 @@ import colorSharp from "../assets/img/color-sharp.png";
 
 function Skills() {
 
-    const technicalSkillList = ["JavaScript", "TypeScript", "Python", "C++", "HTML", "CSS", "SQL", "Excel", "Kotlin", "Dart"];
+    const technicalSkillList = ["JavaScript", "TypeScript", "Python", "C++", "HTML", "CSS", "SQL", "Excel", "Java", "C", "C#", "Kotlin", "Dart"];
 
-    const frameworksList = ["React", "React Native", "MongoDB", "Figma", "Jira", "GitHub", "MySQL", "Tailwind CSS", "Flutter"];
+    const frameworksList = ["React", "React Native", "MongoDB", "Django", "Figma", "Jira", "GitHub", "MySQL", "Tailwind CSS", "Next.js", "Node.js", "Linux", "Visual Studio Code", "PowerBI", "AWS", "Flutter"];
 
     const softSkillList = ["Teamwork", "Communication", "Agile Development", "Collaboration", "Team Player", "Accountability",
         "Problem Solving", "Adaptability", "Time Management", "Critical Thinking", "Eager to Learn"];
