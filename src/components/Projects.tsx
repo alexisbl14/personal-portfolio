@@ -1,5 +1,7 @@
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import bakersHubImg from "../assets/img/bakers-hub.png";
+import netflixImg from "../assets/img/netflix-project.PNG";
 import davisDotImg from "../assets/img/davis-dot2.PNG";
 import littleLemonImg from "../assets/img/little-lemon.png";
 import d2dImg from "../assets/img/d2d-enzyme-rate-calculator.webp";
@@ -11,6 +13,35 @@ import { ProjectDescription } from "./ProjectDescritption";
 function Projects() {
 
     const projects = [
+        {
+            projTitle: "Baker's Hub (Tentative)",
+            role: "Developer, Designer",
+            imgUrl: bakersHubImg,
+            timeframe: "April 2025 - present",
+            projDesc: "This project is a web app designed for bakers (and eventually other craft-based microbusinesses) to manage their day-to-day operations—from ingredient tracking and recipe costs to sales and event prep, while also supporting learning (later add on) and business growth.",
+            tasks: ["Set up user accounts using Django Rest Framework (DRF) with Token Authentication and permissions.",
+                    "Set up models including Ingredients, Recipes, and RecipeIngredient.",
+                    "Created API endpoints to create, list, update, and delete (CRUD).",
+                    "Implemented Unit Tests with 100% code coverage.",
+                    "Added views to give the user a suggested price based on a given profit margin, and to add and deduct ingredient amounts in inventory."
+            ],
+            skills: ["Python", "SQL", "Django", "DRF", "Unit Testing (TDD)", "RESTful API Development", "Authentication/Authorization", "Database Design & Management", "GitHub"],
+            link: "https://github.com/alexisbl14/bakers-hub-backend"
+        },
+        {
+            projTitle: "Netflix Content Data Analytics Project",
+            role: "Data Analyst",
+            imgUrl: netflixImg,
+            timeframe: "March 2025 - April 2025",
+            projDesc: "This project explores trends in Netflix's content from January 2008 to January 2020 using a cleaned and transformed dataset from Tableau Public. It analyzes growth trends, genre and rating distributions, and country-level contributions — offering insight into how Netflix’s global catalog has evolved.",
+            tasks: ["Processed and cleaned 3 raw CSV datasets using SQL and Excel to normalize genres, unify content ratings, and integrate into a relational data model for efficient querying.",
+                    "Built a multi-page Power BI dashboard with dynamic visuals (bar, line, treemap, KPI cards) using DAX measures for YoY growth and genre ranking.",
+                    "Discovered that 65%+ of content from top-producing non-U.S. countries is classified as International, while the U.S. and Canada favored Comedy and Drama, revealing regional content preferences that could inform localization and licensing strategies.",
+                    "Compiled a report documenting methodology, data transformations, and visual insights to communicate findings to both technical and non-technical stakeholders."
+                ],
+            skills: ["SQL", "Excel", "MySQL", "Power BI", "DAX", "Dashboard Design", "GitHub", "Technical Documentation", "Data Analysis Reporting"],
+            link: "https://github.com/alexisbl14/netflix-content-analysis-2008-2020"
+        },
         {
             projTitle: "DavisDot",
             role: "Developer",
