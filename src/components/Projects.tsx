@@ -14,7 +14,7 @@ function Projects() {
 
     const projects = [
         {
-            projTitle: "Baker's Hub (Tentative)",
+            projTitle: "Baker's Hub (Tentative Name)",
             role: "Developer, Designer",
             imgUrl: bakersHubImg,
             timeframe: "April 2025 - present",
