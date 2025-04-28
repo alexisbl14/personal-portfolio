@@ -775,12 +775,14 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
 
 .hobbies-list {
   padding-top: 30px;
+  justify-content: center;
 }
 
 .hobby-bx {
   background: #1b1b1b;
   border-radius: 64px;
   padding: 50px;
+  margin-bottom: 20px;
 }
 
 /* Footer CSS */

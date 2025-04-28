@@ -14,6 +14,10 @@ export const Hobbies = () => {
         {
             hobby: "Hiking/Walking🌄",
             description: "Last year, I picked up hiking and enjoy trying to do at least one a month (in good weather). I have also made a goal this year to try and get at least 10,000 steps every day for my overall health!"
+        },
+        {
+            hobby: "Baking🧁",
+            description: "Stemming from my love of the Great British Baking Show, I have decided to learn how to bake. I'm hoping to learn the science behind it, rather than just memorizing recipes!"
         }
     ]
     return (
