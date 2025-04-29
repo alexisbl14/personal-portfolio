@@ -8,7 +8,7 @@ function Banner() {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     // strings to rotate through
-    const toRotate = ["Web Developer", "Software Developer", "App Developer", "Gym Enthusiast", "Animal Lover", "Problem Solver"];
+    const toRotate = ["Web Developer", "Software Developer", "App Developer", "Gym Enthusiast", "Animal Lover", "Problem Solver", "Aspiring Baker"];
     // variable to set the text
     const [text, setText] = useState('');
     // time between new letters
@@ -73,7 +73,7 @@ function Banner() {
                             </Col>
                         </Row>
                     </Col>
-                    <Col xs={12} md={6} xl={5}>
+                    <Col xs={6} md={6} xl={5}>
                         <img src={headerImg} alt="Header Img" />
                     </Col>
                 </Row>

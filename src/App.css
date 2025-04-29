@@ -304,6 +304,14 @@ nav.navbar .navbar-toggler-icon[aria-expanded="true"] nav.navbar .navbar-toggler
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  height: 195px;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .banner h1 {
+    height: 130px;
+  }
 }
 
 .banner p {
